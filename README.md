@@ -20,7 +20,7 @@ opam switch 4.03.0
 
 You can use opam by pinning the repository with
 ```Shell
-opam pin add ocaml-cordova-plugin-local-notifications https://github.com/dannywillems/ocaml-cordova-plugin-local-notifications.git
+opam pin add cordova-plugin-local-notifications https://github.com/dannywillems/ocaml-cordova-plugin-local-notifications.git
 ```
 
 and to compile your project, use
