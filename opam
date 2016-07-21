@@ -1,18 +1,20 @@
 opam-version: "1.2"
-name: "ocaml-cordova-plugin-local-notifications"
-version: "1.1"
-maintainer: "Omar"
+name: "cordova-plugin-local-notifications"
+version: "1.0"
+maintainer: "Omar, Danny Willems (contact@danny-willems.be)"
 authors: "Omar"
 homepage: ""
-bug-reports: ""
-license: ""
+bug-reports: "https://github.com/o-marshmallow/ocaml-cordova-plugin-local-notifications/issues"
+license: "LGPL-3.0 with OCaml linking exception"
 dev-repo: "https://github.com/o-marshmallow/ocaml-cordova-plugin-local-notifications"
 build: [
   [make]
 ]
 install: [make "install"]
-remove: ["ocamlfind" "remove" "ocaml-cordova-plugin-local-notifications"]
+remove: ["ocamlfind" "remove" "cordova-plugin-local-notifications"]
 depends: [
   "gen_js_api"
   "ocamlfind" {build}
 ]
+
+available: [ ocaml-version >= "4.03.0" ]
