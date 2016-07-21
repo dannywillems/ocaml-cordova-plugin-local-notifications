@@ -37,3 +37,9 @@ cordova plugin add https://github.com/katzer/cordova-plugin-local-notifications.
 
 See the official documentation
 [cordova-plugin-local-notifications](https://github.com/katzer/cordova-plugin-local-notifications)
+
+## Contributors
+
+* Omar Chebib
+  * GitHub: https://github.com/o-marshmallow
+  * Email: omarchebib@gmail.com
