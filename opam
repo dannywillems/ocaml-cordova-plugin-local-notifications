@@ -3,10 +3,10 @@ name: "cordova-plugin-local-notifications"
 version: "1.0"
 maintainer: "Omar, Danny Willems (contact@danny-willems.be)"
 authors: "Omar"
-homepage: ""
-bug-reports: "https://github.com/o-marshmallow/ocaml-cordova-plugin-local-notifications/issues"
+homepage: "https://github.com/dannywillems/ocaml-cordova-plugin-local-notifications"
+bug-reports: "https://github.com/dannywillems/ocaml-cordova-plugin-local-notifications/issues"
 license: "LGPL-3.0 with OCaml linking exception"
-dev-repo: "https://github.com/o-marshmallow/ocaml-cordova-plugin-local-notifications"
+dev-repo: "https://github.com/dannywillems/ocaml-cordova-plugin-local-notifications"
 build: [
   [make]
 ]
