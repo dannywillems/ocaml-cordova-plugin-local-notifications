@@ -17,7 +17,7 @@ module ScheduleOptions : sig
     ?title:string ->
     ?text:string ->
     ?every:string ->
-    ?at:int ->
+    ?first_at:int ->
     ?badge:int ->
     ?sound:string ->
     ?data:string ->
@@ -35,7 +35,7 @@ module ScheduleOptions : sig
   val title : t -> string
   val text : t -> string
   val every : t -> string
-  val at : t -> int
+  val first_at : t -> int
   val badge : t -> int
   val sound : t -> string
   val data : t -> string
